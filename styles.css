@@ -36,6 +36,7 @@ h1 {
 .image {
   margin-top: 10rem;
   margin-bottom: 5rem;
+  position: relative;
 }
 
 .rounded {
@@ -53,7 +54,7 @@ P {
 .btn {
   display: inline-block;
   padding: 2.7rem 7.5rem;
-  background: red;
+  background: grey;
   font-size: 2rem;
   text-decoration: none;
   color: black;
@@ -69,8 +70,8 @@ P {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkred;
-  color: black;
+  background-color: grey;
+  color: white;
 }
 .about-title {
   font-size: 1.5rem;
