@@ -30,11 +30,38 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.image {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+P {
+  font-size: 2rem;
+  color: black;
+  line-height: 5rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 2.7rem 7.5rem;
+  background: rgb(95, 158, 160);
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: whitesmoke;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: purple;
+  background-color: darkred;
   color: black;
 }
 .about-title {
